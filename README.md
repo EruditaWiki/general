@@ -30,32 +30,38 @@ aktivieren Sie folgende Erweiterungen in `php.ini`:
 
 Installieren Sie folgende Pakete:  
 
-
     `composer require --dev phpunit/phpunit`  
 >
     `composer require erusev/parsedown`
 
 ### Datenbank:
 1. Erstellen Sie in pgAdmin eine Datenbank namens `Erudita`.
-2. Importieren Sie `database/database.sql` in pgAdmin, um die nötigen Tabellen in `Erudita` zu erstellen. 
+2. Importieren Sie `database.sql` (aus dem Projekt `database`) in pgAdmin, um die nötigen Tabellen in `Erudita` zu erstellen. 
 
 ### Zugangsdaten: 
-1. Erstellen Sie eine Datei `credentials.php` und erstellen Sie dort eine variable `$DB_PASS`, die ihr Datenbankpasswort enthält.
+1. Erstellen Sie im Projekt `webserver` eine Datei `credentials.php` und erstellen Sie dort folgende Variablen:
+
+```php
+$DB_HOST = ''; // DB host name e.g. example.com
+$DB_PORT = 5432; // DB port, usually 5432
+$DB_NAME = ''; // DB name e.g.'Erudita' (up to you)
+$DB_USER = ''; // DB username, usually 'postgres'
+$DB_PASS = ''; // DB password
+```
+
 1. Tragen Sie ihre restlichen Datenbank Zugangsdaten in `config.php` ein.
-2. Erstellen Sie bei Google einen reCAPTCHA `site_key` und tragen Sie diesen ebenfalls in `config.php` ein. 
+2. Erstellen Sie bei Google einen reCAPTCHA `site_key` und tragen Sie diesen ebenfalls in `config.php` ein. (public key)
 
 ## Benutzung
 Um Erudita zu nutzen, besuchen Sie einfach die Website und geben Sie in der Suchleiste den Namen des Artikels oder Themas ein, nach dem Sie suchen. Sie können auch durch die verschiedenen Kategorien navigieren, um mehr über ein bestimmtes Thema zu erfahren. Wenn Sie möchten, können Sie sich auch registrieren, um Artikel zu bearbeiten und neue Artikel hinzuzufügen.
 
 ## Roadmap
-- Integration von Multimedia-Inhalten wie Videos und Audiodateien
-- Möglichkeit, Artikel in andere Sprachen zu übersetzen
-- Verbesserung der Benutzeroberfläche und -erfahrung
+Roadmap for future features: [Readmap.md](Roadmap.md)
 
 ## Mitwirkende
-- Raresh Velnik
 - Kevin Palme
 - Dominik Hein
+- Raresh Velnik
 
 ## Lizenz
-Erudita wird unter der MIT-Lizenz veröffentlicht. Weitere Informationen finden Sie in der [LICENSE](LICENSE) Datei.
+Erudita wird unter der Apache License 2.0 veröffentlicht. Weitere Informationen finden Sie in der [LICENSE](LICENSE) Datei.
