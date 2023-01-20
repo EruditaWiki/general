@@ -1,16 +1,7 @@
 # Roadmap
 
-- Kategorieübersicht
-- Globaler Live Chat
-- Suche überarbeiten
-- "Über uns" Seite erstellen
-- Profilbild zu Usern hinzufügen
-- Einstellungsseite
-- FAQ
-- Responsive für mobile Geräte
-- Logo überarbeiten
-- Beiträge erstellen/bearbeiten
-- Unit Tests
-- Pentesting
-- Online Stellen
-- Cookie Banner
+## Future features
+- Integration of multimedia content such as videos and audio files
+- Ability to translate articles into other languages
+- Improved user interface and experience
+- Possibility to look up technical terms
