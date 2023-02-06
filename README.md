@@ -59,7 +59,7 @@ Um Erudita zu nutzen, besuchen Sie einfach die Website und geben Sie in der Such
 Roadmap for future features: [Readmap.md](Roadmap.md)
 
 ## Mitwirkende
-- Kevin Palme
+- Kevin Tamme
 - Dominik Hein
 - Raresh Velnik
 
