@@ -61,7 +61,7 @@ Roadmap for future features: [Readmap.md](Roadmap.md)
 ## Mitwirkende
 - Kevin Tamme
 - Dominik Hein
-- Raresh Velnik
+- Rares Velnic
 
 ## Lizenz
 Erudita wird unter der Apache License 2.0 veröffentlicht. Weitere Informationen finden Sie in der [LICENSE](LICENSE) Datei.
