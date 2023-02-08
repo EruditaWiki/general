@@ -55,6 +55,9 @@ $DB_PASS = ''; // DB password
 ## Benutzung
 Um Erudita zu nutzen, besuchen Sie einfach die Website und geben Sie in der Suchleiste den Namen des Artikels oder Themas ein, nach dem Sie suchen. Sie können auch durch die verschiedenen Kategorien navigieren, um mehr über ein bestimmtes Thema zu erfahren. Wenn Sie möchten, können Sie sich auch registrieren, um Artikel zu bearbeiten und neue Artikel hinzuzufügen.
 
+## Datenbank
+Nähere Informationen über unsere Datenbank finden Sie hier: [database/README.md](https://github.com/EruditaWiki/database/blob/main/README.md)
+
 ## Roadmap
 Roadmap for future features: [Readmap.md](Roadmap.md)
 
