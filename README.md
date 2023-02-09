@@ -30,9 +30,12 @@ aktivieren Sie folgende Erweiterungen in `php.ini`:
 
 Installieren Sie folgende Pakete:  
 
-    `composer require --dev phpunit/phpunit`  
+    composer require --dev phpunit/phpunit -W
 >
-    `composer require erusev/parsedown`
+
+    composer require erusev/parsedown
+    
+>
 
 ### Datenbank:
 1. Erstellen Sie in pgAdmin eine Datenbank namens `Erudita`.
